@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #12001a;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aim_bot.MainController">
+   <children>
+      <Button fx:id="play" layoutX="204.0" layoutY="108.0" mnemonicParsing="false" onAction="#startPlaying" prefHeight="66.0" prefWidth="193.0" style="-fx-background-color: #29003b; -fx-border-color: #b300ff;" text="PLAY" textFill="#f1ffb0">
+         <font>
+            <Font size="31.0" />
+         </font>
+         <effect>
+            <Glow level="0.7" />
+         </effect>
+      </Button>
+      <Button layoutX="251.0" layoutY="235.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="98.0" style="-fx-background-color: #29003b; -fx-border-color: #b300ff;" text="EXIT" textFill="#ae9400">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
